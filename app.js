@@ -74,7 +74,7 @@
 // let num;
 // do num = prompt ('Введите число больше 100', '')
 // while (num <= 100 && num);
-//----------------------------------------------------------------switch--------------------------------
+//-------------------------------------------------------switch----------------------------------------
 // const number = +prompt ('Введите число от 0 до 3', '');
 // switch (number) {
 //     case 0:
@@ -90,3 +90,58 @@
 //     default:
 //         alert ('Кажется, вы что-то перепутали...');
 // }
+//----------------------------------------------------functions-----------------------------------------
+// function showMessage (from, text) {
+//     from = '*' + from + '*';
+//     alert (from + ': ' + text)
+// }
+// let from = 'Sergei';
+// showMessage (from, 'Hello!');
+
+// let age = prompt ('Укажите ваш возраст', '');
+// function checkAge (age) {
+//     return (age > 18) ? true : confirm ('Родители разрешили?');
+// }
+// checkAge (age);
+
+// let age = prompt ('Укажите ваш возраст', '');
+// function checkAge (age) {
+//     switch (age) {
+//         case age > 18:
+//             return true;
+//         default:
+//             return confirm ('Родители разрешили?');
+//     }
+// }
+// checkAge (age);
+
+// let age = prompt ('Укажите ваш возраст','');
+// function checkAge (age) {
+//     return (age > 18 || confirm ('Родители разрешили?'));
+// }
+// checkAge (age);
+
+// let a = +prompt ('Введите значение a', '');
+// let b = +prompt ('Введите значение b', '');
+// function min (a,b) {
+//     return isMin(a,b);
+// }
+// function isMin (a,b) {
+//     if (a == b) {
+//         alert (a);
+//     } else if (a > b) {
+//         alert (b);
+//     } else {
+//         alert (a);
+//     }
+// }
+// min (a,b);
+
+// let x = prompt ('Введите число ','');
+// let n;
+// do n = prompt ('Введите целую положительную степень','');
+// while (!((n > 0) && (n % 1 ==0)));
+// function pow (x,n) {
+//     alert (x**n);
+// }
+// pow (x,n);
