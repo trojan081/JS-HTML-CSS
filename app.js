@@ -154,3 +154,13 @@
 //   let sayHi = function () {
 //     alert( "Привет" );
 //   };
+// -------------------------------------------------------------arrow function---------------------------------
+// let ask = (question, yes, no) => {
+//     if (confirm(question)) return yes();
+//     else return no();
+// }
+// ask (
+//     'Да?',
+//     () => alert ('да'),
+//     () => alert ('нет')
+//     )
