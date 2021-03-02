@@ -164,3 +164,10 @@
 //     () => alert ('да'),
 //     () => alert ('нет')
 //     )
+//-----------------------------------------------------------------Objects-------------------------------------
+// let smth = {
+//     name: 'unknown',
+//     property: 'shapeless',
+// };
+// let key = prompt ('Print one of these keys: name, property', 'name');
+// alert (smth[key]);
