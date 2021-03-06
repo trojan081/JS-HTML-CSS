@@ -195,8 +195,21 @@
 // let sum = 0;
 // function salary (obj) {
 //     for (let key in obj) {
-//         (sum += (obj[key]));
+//         ( sum += (obj[key]) );
 //     }
 //     alert (sum);
 // }
 // salary (salaries);
+//
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+// };
+
+// function multiplyNumeric(obj) {
+//     for (let key in obj) {
+//         if (typeof obj[key] == 'number')  obj[key] = obj[key]*2;
+//     }
+// }
+// multiplyNumeric(menu);
