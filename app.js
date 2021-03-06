@@ -187,3 +187,16 @@
 //         return 'true';
 // }
 // alert (isEmpty(user));
+// let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130
+// };
+// let sum = 0;
+// function salary (obj) {
+//     for (let key in obj) {
+//         (sum += (obj[key]));
+//     }
+//     alert (sum);
+// }
+// salary (salaries);
