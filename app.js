@@ -171,3 +171,11 @@
 // };
 // let key = prompt ('Print one of these keys: name, property', 'name');
 // alert (smth[key]);
+//
+// let user = {};
+// user.name = 'John';
+// user.surname = 'Smith';
+// alert (user.name);
+// user.name = prompt ('Input Username', 'Pete');
+// alert (user.name);
+// delete user.name;
