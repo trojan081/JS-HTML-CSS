@@ -179,3 +179,11 @@
 // user.name = prompt ('Input Username', 'Pete');
 // alert (user.name);
 // delete user.name;
+//
+// function isEmpty(obj) {
+//        for (let key in obj) {
+//            return 'false';
+//         };
+//         return 'true';
+// }
+// alert (isEmpty(user));
