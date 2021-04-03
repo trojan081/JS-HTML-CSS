@@ -187,6 +187,7 @@
 //         return 'true';
 // }
 // alert (isEmpty(user));
+//
 // let salaries = {
 //     John: 100,
 //     Ann: 160,
