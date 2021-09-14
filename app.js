@@ -137,6 +137,16 @@
 // }
 // min (a,b);
 
+// let a = +prompt ('Введите значение a', '');
+// let b = +prompt ('Введите значение b', '');
+// function min (a,b) {
+//     return isMin(a,b);
+// }
+// function isMin (a,b) {
+//     (a<=b) ? alert (a) : alert (b)
+// }
+// min (a,b);
+
 // let x = prompt ('Введите число ','');
 // let n;
 // do n = prompt ('Введите целую положительную степень','');
@@ -169,7 +179,7 @@
 //     name: 'unknown',
 //     property: 'shapeless',
 // };
-// let key = prompt ('Print one of these keys: name, property', 'name');
+// let key = prompt ('Print one of these keys: name, property, 'name');
 // alert (smth[key]);
 //
 // let user = {};
@@ -214,3 +224,19 @@
 //     }
 // }
 // multiplyNumeric(menu);
+
+// ----------------------------------calc--------------------------------
+
+// function plus() {
+//     let num1 = +(document.getElementById('num1').value),
+//     num2 = +(document.getElementById('num2').value),
+//     res;
+//     res = num1 + num2;
+//     document.getElementById('res').innerHTML=res;
+// }
+// function minus() {
+//     let num1 = +(document.getElementById('num1').value),
+//     num2 = +(document.getElementById('num2').value),
+//     res = num1 - num2;
+//     document.getElementById('res').innerHTML=res;
+// }
