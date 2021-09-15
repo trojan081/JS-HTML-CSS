@@ -240,3 +240,9 @@
 //     res = num1 - num2;
 //     document.getElementById('res').innerHTML=res;
 // }
+
+//------------------------------HTML inner, ..., ----------------------
+// function click() {
+// let test1 = document.getElementById('test');
+// test1.innerHTML = 'Тест запущен';   
+// }
