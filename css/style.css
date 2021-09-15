@@ -32,3 +32,27 @@
 .div5 {
     background-color: rgb(255,127,80, .5);
 }
+.div6 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+.div7 {
+    font-size: 18px;
+    font-family: Georgia, serif;
+    color: #333;
+    font-weight: 800;
+}
+.bold {
+    font-weight: bold;
+}
+.coral {
+    background-color: coral;
+}
+.div8 {
+    font-size: 16px;
+}
+.div9 {
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
