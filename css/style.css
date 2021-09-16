@@ -72,19 +72,32 @@
 .text_red {
     color:red;
 }
-h1 {
-    font-family: Impact, sans-serif;
+h1,h2 {
+    margin: 40px 0;
+    font-family: Impact, serif;
     text-align: center;
 }
 p {
-    font-family: serif;
+    margin-bottom: 20px;
+    font-family: sans-serif;
     font-size: 18px;
+    line-height: 150%;
 }
 .text-bold {
-    font-weight: 800px;
+    font-weight: 700px;
 }
 .img1_style {
-max-width: 70%;
-margin: 0 auto;
-display: block;
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+.img2_style {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+.img1_description, .img2_description {
+    margin: 20px 0 30px 0;
+    text-align: center;
+    font-style: italic;
 }
