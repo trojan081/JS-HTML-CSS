@@ -1,4 +1,4 @@
-.div1 {
+/* .div1 {
     width: 50px;
     height: 50px;
     background-color: orange;
@@ -55,4 +55,36 @@
     font-style: italic;
     text-decoration: underline;
     text-transform: uppercase;
+} */
+/* .ol_1 {
+    margin: 0 0 0 20px
+} */
+
+/* --------------К-129----------------- */
+
+* {
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.text_red {
+    color:red;
+}
+h1 {
+    font-family: Impact, sans-serif;
+    text-align: center;
+}
+p {
+    font-family: serif;
+    font-size: 18px;
+}
+.text-bold {
+    font-weight: 800px;
+}
+.img1_style {
+max-width: 70%;
+margin: 0 auto;
+display: block;
 }
