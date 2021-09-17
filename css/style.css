@@ -60,9 +60,9 @@
     margin: 0 0 0 20px
 } */
 
-/* --------------К-129----------------- */
+/* -------------------------------------К-129----------------------------------------- */
 
-* {
+/* * {
     margin: 0;
 }
 .container {
@@ -77,13 +77,13 @@ h1,h2 {
     font-family: Impact, serif;
     text-align: center;
 }
-p {
+p, ul {
     margin-bottom: 20px;
     font-family: sans-serif;
     font-size: 18px;
     line-height: 150%;
 }
-.text-bold {
+.text_bold {                    // bold не работает, причина не выявлена
     font-weight: 700px;
 }
 .img1_style {
@@ -100,4 +100,37 @@ p {
     margin: 20px 0 30px 0;
     text-align: center;
     font-style: italic;
+}
+li {
+    margin: 20px 0 0 0;
+    line-height: 150%;
+} */
+
+/* -------------------------------------К-129----------------------------------------- */
+
+* {
+    margin: 0;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 240)
+}
+.img1 {
+    margin: 0 auto;
+    max-width: 97%;
+    display: block;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 30px 0 20px 0;
+}
+p.p1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    font-weight: 800;
+    color: rgb(70, 1, 119);
 }
