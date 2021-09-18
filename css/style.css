@@ -108,6 +108,9 @@ li {
 
 /* -------------------------------------К-129----------------------------------------- */
 
+/* -------------------------------------------------------TABLES------------------------------------------------------ */
+
+
 * {
     margin: 0;
 }
@@ -130,7 +133,63 @@ h1 {
 p.p1 {
     text-align: center;
     font-family: Arial, sans-serif;
-    margin: 0 auto;
+    margin: 30px auto 20px auto;
     font-weight: 800;
     color: rgb(70, 1, 119);
 }
+table.table1 {
+    margin: 10px auto;
+    border: 1px solid rgb(189, 189, 189);
+    text-align: left;
+    border-collapse: collapse;
+    width: 97%;
+}
+td,th {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 10px;
+}
+.table1_row1 {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #d0d2da;
+}
+h2 {
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-left: 15px;
+}
+.table2_row1 {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ff7e01;
+    color: rgb(255, 255, 255);
+}
+table.table2 {
+    background-color: white;
+    margin: 10px auto;
+    border: 1px solid rgb(189, 189, 189);
+    text-align: left;
+    border-collapse: collapse;
+    width: 97%;
+}
+table.table3 {
+    margin: 10px auto;
+    border: 1px solid rgb(189, 189, 189);
+    text-align: left;
+    border-collapse: collapse;
+    width: 97%;
+}
+.table3_row1 {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif
+}
+table3.td_1 {
+    text-align: center;
+}
+/* -------------------------------------------------------TABLES------------------------------------------------------ */
