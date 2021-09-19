@@ -226,3 +226,47 @@ table.table3 {
     left: 200px;
     bottom: 100px;
 } */
+
+/* .container {
+    margin: 50px 50px;
+    min-height: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly
+}
+.c1 {
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+}
+.c2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(221, 175, 116);
+}
+.c3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(221, 169, 101);
+}
+.c4 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(218, 155, 73);
+}
+.c5 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 145, 43);
+}
+.c6 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(216, 142, 44);
+}
+.c7 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(230, 130, 0);
+} */
